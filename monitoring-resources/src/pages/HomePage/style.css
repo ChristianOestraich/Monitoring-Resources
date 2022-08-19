@@ -1,36 +1,33 @@
-#login {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 0 2rem;
-}
-
-#login .form {
-    background-color: #f1f1f1;
+#home
+{
     width: 100%;
-    max-width: 480px;
-    padding: 0.5rem;
+    height: auto;
 }
 
-#login .field {
-    padding-bottom: 0.5rem;
-}
-
-#login .field label {
-    display: block;
-}
-
-#login .field input {
+.homePageTitle
+{
     width: 100%;
-}
-
-#login .actions {
+    height: auto;
     text-align: center;
-    margin-top: 0.5rem;
 }
 
+.homeMenu 
+{
+    width: 150px;
+    position: absolute;
+    left: 7px;
+}
+
+.menu 
+{
+    width: 167px;
+    height: 38px;
+}
+
+.option
+{
+    width: 150px;
+}
 .buttonGranfa {
     box-shadow: 3px 4px 0px 0px #343b40;
     background:linear-gradient(to bottom, #48617a 5%, #262f38 100%);

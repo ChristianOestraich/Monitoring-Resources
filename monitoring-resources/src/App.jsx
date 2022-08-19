@@ -5,7 +5,7 @@ import ApptRoutes from './AppRoutes';
 function App() {
   return (
     <div className="app">
-        <ApptRoutes/>
+        <ApptRoutes />
     </div>
   );
 }

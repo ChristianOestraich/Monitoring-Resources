@@ -1,0 +1,152 @@
+#home
+{
+    width: 100%;
+    height: auto;
+}
+
+.homePageTitle
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.homeMenu 
+{
+    width: 150px;
+    position: absolute;
+    left: 7px;
+}
+
+.menu 
+{
+    width: 167px;
+    height: 38px;
+}
+
+.option
+{
+    width: 150px;
+}
+
+#cadastro{
+  position: absolute;
+  top: 136px;
+  width: 100%;   
+  padding: 18px 6% 60px 6%;
+  margin: 0 0 35px 0;
+  background: #f7f7f7;
+  border: 1px solid rgba(147, 184, 189,0.8);
+   
+  -webkit-box-shadow: 5px;
+  border-radius: 5px;
+   
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+ 
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder{
+  color: #bebcbc;
+  font-style: italic;
+}
+
+input {
+    outline: none;
+  }
+   
+  /*estilo dos input,  menos o checkbox */
+  input:not([type="checkbox"]){
+    width: 95%;
+    margin-top: 4px;
+    padding: 10px;    
+    border: 1px solid #b2b2b2;
+   
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+   
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+   
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+   
+  /*estilo do botão submit */
+  input[type="submit"]{
+    width: 95%!important;
+    cursor: pointer;  
+    background: rgb(61, 157, 179);
+    padding: 8px 5px;
+    color: #fff;
+    font-size: 20px;  
+    border: 1px solid #fff;   
+    margin-bottom: 10px;  
+    text-shadow: 0 1px 1px #333;
+   
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+   
+    transition: all 0.2s linear;
+  }
+   
+  /*estilo do botão submit no hover */
+  input[type="submit"]:hover{
+    background: #4ab3c6;
+  }
+
+  label{
+    color: #405c60;
+    position: relative;
+  }
+
+  table, th, td {
+    border:1px solid black;
+    width: 60%;
+    text-align: center;
+  }
+
+  .tableDebug{
+    width: 100%;
+    position: relative;
+    top: 8px;
+    left: 221px;
+  }
+
+input.buttonGranfa {
+  box-shadow: 3px 4px 0px 0px #343b40;
+  background:linear-gradient(to bottom, #48617a 5%, #262f38 100%);
+  background-color:#48617a;
+  border-radius:5px;
+  border:1px solid #1e2124;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  font-weight:bold;
+  padding:12px 44px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #528ecc;
+}
+input.buttonGranfa:hover {
+  background:linear-gradient(to bottom, #262f38 5%, #48617a 100%);
+  background-color:#262f38;
+}
+.buttonGranfa:active {
+  position:relative;
+  top:1px;
+}
+
+.divGrafana {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 222px;
+  left: 24px;
+}
+
